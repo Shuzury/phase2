@@ -779,3 +779,24 @@ nav h1 {
   pointer-events: none;
 }
 
+.phase3  {
+  background-color: #28a745; /* Beautiful green */
+  color: #ffeb3b; /* Yellow font color */
+  font-family: 'Pacifico', cursive; /* Cursive font */
+  padding: 10px 20px; /* Padding */
+  margin: 15px; /* Margin */
+  border: none; /* Remove border */
+  border-radius: 8px; /* Rounded corners */
+  font-size: 1.2rem; /* Font size */
+  cursor: pointer; /* Pointer cursor */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+}
+
+.phase3:hover {
+  background-color: #7017b0; /* Darker green on hover */
+  color: #e46868;
+  transform: scale(1.25); /* Slightly enlarge on hover */
+}
+ 
+
